@@ -4,7 +4,7 @@ import styled from "styled-components";
 const NavList = styled.ul`
   display: flex;
   justify-content: space-around;
-  gap: 0rem;
+  gap: 2.2rem;
 
   @media screen and (max-width: 768px) {
     display: none;

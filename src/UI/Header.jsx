@@ -1,23 +1,24 @@
 import styled from "styled-components";
 import Logo from "./Logo";
 import Button from "./Button";
-import { NavLink } from "react-router-dom";
 import MainNav from "./MainNav";
+import { FaWhatsapp } from "react-icons/fa";
 
 const StyledHeader = styled.div`
+  margin-top: 1.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 7rem;
-  padding: 2.5rem 18rem 2.5rem 18rem;
+  padding: 2.5rem 12rem 2.5rem 12rem;
 
   background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
   z-index: 1000;
 
   @media screen and (max-width: 768px) {
+    margin-top: 0rem;
     height: 7rem;
     padding: 0 1rem;
   }
@@ -44,8 +45,8 @@ function Header() {
           <MainNav />
         </Menu>
         <Buttons>
-          <Button $styles="contact" $variations="contact" as={NavLink} to="/">
-            Contact
+          <Button $styles="header" $variations="header">
+            <FaWhatsapp /> +91 9853884530
           </Button>
         </Buttons>
       </StyledHeader>

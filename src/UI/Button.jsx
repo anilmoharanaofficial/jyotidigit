@@ -1,12 +1,26 @@
 import styled, { css } from "styled-components";
 
 const styles = {
-  contact: css`
+  header: css`
     text-transform: uppercase;
     text-align: center;
     font-size: 1.4rem;
     padding: 0.9rem 1.2rem;
     font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  `,
+
+  hero: css`
+    font-size: 18px;
+    font-weight: 70px;
+    background-color: #3a5da5;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 8rem 2rem 8rem;
+    border-radius: 3rem;
   `,
 
   signup: css`
@@ -139,16 +153,16 @@ const variations = {
 
   hero: css`
     color: var(--color-brand-50);
-    background-color: var(--color-brand-600);
+    background-color: #0f3460;
 
     &:hover {
-      background-color: var(--color-brand-700);
+      background-color: #0f3460;
     }
   `,
 
-  contact: css`
-    color: var(--color-grey-0);
-    background-color: var(--color-green-600);
+  header: css`
+    color: #0f3460;
+    background-color: #f7fafd;
   `,
 };
 
