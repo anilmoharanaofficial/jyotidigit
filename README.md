@@ -1,5 +1,7 @@
 # JyotiDigit - Digital Marketing Agency Portfolio
 
+![Jyoti Digit Preview](Images/JyotiDigitPrv.png)
+
 **JyotiDigit** is a digital marketing agency website aimed at showcasing our services and expertise in social media marketing, particularly on platforms like Instagram. The site is designed to attract potential clients by highlighting the various digital marketing services we offer.
 
 ## Purpose of the Site
