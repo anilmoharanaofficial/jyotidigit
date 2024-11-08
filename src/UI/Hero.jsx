@@ -139,7 +139,7 @@ const BackgroundCircle = styled.div`
   border-radius: 50%;
   position: absolute;
   top: 55%;
-  left: 45%;
+  left: 41%;
   transform: translate(-50%, -50%);
   z-index: 1;
 
@@ -218,9 +218,14 @@ function Hero() {
               marketing solutions.
             </Subtitle>
             <ButtonGroup>
-              <Button $styles="hero" $variations="hero">
-                Book a call <GoArrowUpRight />
-              </Button>
+              <a
+                href="https://calendly.com/jyotidigit/jyoti-ranjan"
+                target="_blank"
+              >
+                <Button $styles="hero" $variations="hero">
+                  Book a call <GoArrowUpRight />
+                </Button>
+              </a>
             </ButtonGroup>
             <TrustedSection>
               <div>
@@ -244,7 +249,7 @@ function Hero() {
           </LeftSection>
           <RightSection>
             <BackgroundCircle />
-            <HeroImage src="/Img.png" alt="Hero" />
+            <HeroImage src="/Images/Hero.png" alt="Hero" />
           </RightSection>
         </Section>
       </StyledHero>

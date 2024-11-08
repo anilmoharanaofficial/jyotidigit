@@ -26,7 +26,7 @@ const StyledNavLink = styled(NavLink)`
     }
   }
 
-  &:hover,
+  /* &:hover,
   &:active,
   &.active:link,
   &.active:visited {
@@ -35,7 +35,7 @@ const StyledNavLink = styled(NavLink)`
     @media screen and (max-width: 768px) {
       color: var(--color-brand-600);
     }
-  }
+  } */
 `;
 
 function MainNav() {
@@ -43,16 +43,16 @@ function MainNav() {
     <nav>
       <NavList>
         <li>
-          <StyledNavLink to="/services">Services</StyledNavLink>
+          <StyledNavLink to="#">Services</StyledNavLink>
         </li>
         <li>
-          <StyledNavLink to="/about">About</StyledNavLink>
+          <StyledNavLink to="#">About</StyledNavLink>
         </li>
         <li>
-          <StyledNavLink to="/contact">Contact</StyledNavLink>
+          <StyledNavLink to="#">Contact</StyledNavLink>
         </li>
         <li>
-          <StyledNavLink to="/blog">Blog</StyledNavLink>
+          <StyledNavLink to="#">Blog</StyledNavLink>
         </li>
       </NavList>
     </nav>

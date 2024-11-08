@@ -68,7 +68,7 @@ const TestimonialContent = styled.div`
 `;
 
 const QuoteText = styled.p`
-  font-size: 35px;
+  font-size: 30px;
   line-height: 58px;
   font-weight: 700;
   color: #ffffff;

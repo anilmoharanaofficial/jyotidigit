@@ -3,6 +3,7 @@ import Logo from "./Logo";
 import Button from "./Button";
 import MainNav from "./MainNav";
 import { FaWhatsapp } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const StyledHeader = styled.div`
   margin-top: 1.2rem;
@@ -45,7 +46,12 @@ function Header() {
           <MainNav />
         </Menu>
         <Buttons>
-          <Button $styles="header" $variations="header">
+          <Button
+            $styles="header"
+            $variations="header"
+            as={NavLink}
+            to="https://wa.me/9853884530?text=Hello%2C%20I%27m%20interested%20in%20learning%20more%20about%20your%20services."
+          >
             <FaWhatsapp /> +91 9853884530
           </Button>
         </Buttons>

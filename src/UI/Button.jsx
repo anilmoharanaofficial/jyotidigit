@@ -23,6 +23,17 @@ const styles = {
     border-radius: 3rem;
   `,
 
+  Feature: css`
+    font-size: 15px;
+    font-weight: 70px;
+    background-color: #3a5da5;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.4rem 3rem 1.4rem 3rem;
+    border-radius: 3rem;
+  `,
+
   signup: css`
     display: flex;
     align-items: center;

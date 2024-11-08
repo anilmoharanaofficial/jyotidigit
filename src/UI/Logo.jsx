@@ -18,7 +18,7 @@ function Logo() {
   return (
     <StyledLogo>
       <NavLink to="/">
-        <Img src="/JyotiDigit-Header.svg" alt="Logo" />
+        <Img src="/Images/JyotiDigit_Main.svg" alt="Logo" />
       </NavLink>
     </StyledLogo>
   );

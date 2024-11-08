@@ -1,7 +1,10 @@
 import Hero from "../UI/Hero";
-import Features from "./Features";
 import Services from "./Services";
 import Testimonial from "./Testimonial";
+import Info from "./Info";
+import FeatureComponent from "../UI/FeatureComponent";
+import CTA from "../UI/CTA";
+import WhatsappButton from "../UI/WhatsappButton";
 
 function Lander() {
   return (
@@ -9,7 +12,10 @@ function Lander() {
       <Hero />
       <Services />
       <Testimonial />
-      {/* <Features /> */}
+      <Info />
+      <FeatureComponent />
+      <CTA />
+      <WhatsappButton />
     </>
   );
 }
